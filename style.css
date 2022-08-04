@@ -1,0 +1,42 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(rgba(95,114,189,.8),rgba(155,35,234,.7)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.logo{
+    height: 40px;
+    margin-top: 20px;
+}
+
+
+/*https://uigradients.com/#Lizard
+https://webgradients.com/
+son páginas para extraer los códigos necesarios para realizar un degradado */
+
+/* Tener en cuenta que para realizar un degradado es necesario emplear linear-gradient((colorUno), (colorDos)) */
+
+.text-description{
+    letter-spacing: 2px;
+    font-family: sans-serif ;
+}
+
+/* letter-spacing da espaciado entre las letras */
+
+.form-control{
+    background: transparent !important;
+    color: white !important ;
+}
+
+a .fab{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px ;
+}
